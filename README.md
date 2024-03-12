@@ -1,7 +1,9 @@
 # ubuntu22.04自动更换壁纸
 
 本仓库仅作备份
+
 ubuntu22.04桌面自动更换壁纸并不是只将图像放到`/usr/share/backgrounds`即可
+
 还需要修改`/usr/share/backgrounds/contest/jammy.xml`，因此编写此文件
 
 ## 实现
