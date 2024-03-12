@@ -54,8 +54,11 @@ ubuntu22.04桌面自动更换壁纸并不是只将图像放到`/usr/share/backgr
 
 ## 使用
 1.将autoWallPaper.py和autoWallPaper.sh放到任意路径下，添加开机启动 (需要修改sh文件路径)
+
 2.如果不想每次加壁纸都sudo的话，可以另外指定壁纸路径
+
 3.如果不想给开机启动程序添加sudo权限的话，使用软链接即可
+
 ```bash
     ln -s /home/username/.config/jammy.xml jammy.xml
 ```
