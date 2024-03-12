@@ -62,5 +62,5 @@ ubuntu22.04桌面自动更换壁纸并不是只将图像放到`/usr/share/backgr
 3.如果不想给开机启动程序添加sudo权限的话，使用软链接即可
 
 ```bash
-    ln -s /home/username/.config/jammy.xml jammy.xml
+ln -s /home/username/.config/jammy.xml jammy.xml
 ```
